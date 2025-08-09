@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md Tausifur Rahman | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: #fefefe;
+            color: #333;
+            scroll-behavior: smooth;
+        }
+        header {
+            background: linear-gradient(135deg, #ff6f61, #6a11cb, #2575fc);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+            position: relative;
+            overflow: hidden;
+        }
+        header img {
+            width: 160px;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 6px solid white;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+            animation: float 4s ease-in-out infinite;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-top: 20px;
+        }
+        h2 {
+            color: #444;
+        }
+        section {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .skills, .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .skill, .project {
+            background: #fff;
+            padding: 15px 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .skill:hover, .project:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+        }
+        footer {
+            text-align: center;
+            background: #2575fc;
+            color: white;
+            padding: 20px;
+        }
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="port1.jpg" alt="Md Tausifur Rahman">
+        <h1>Md Tausifur Rahman</h1>
+        <p>BSc in CSE | Daffodil International University</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am currently pursuing my BSc in CSE at Daffodil International University. I completed my SSC from Nurjahanpur RMC High School and HSC from CPSCR. I enjoy playing games, catching fish, and exploring new technologies. I have worked on several projects using C and Java.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill">C</div>
+            <div class="skill">C++</div>
+            <div class="skill">Java</div>
+            <div class="skill">Python</div>
+            <div class="skill">Web Development</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">C Programming Projects</div>
+            <div class="project">Java Projects</div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:mdtawsifur@gmail.com">mdtawsifur@gmail.com</a></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Md Tausifur Rahman | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
